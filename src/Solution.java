@@ -21,6 +21,8 @@ public class Solution {
 
         for (int i = 0; i < options.length; i++) {
             if (map.containsKey(target - options[i])) {
+                // Checks the HashMap to see if it contains the difference of target - options[i]
+                // We're searching the map for target - options[i] because the difference is the first part of the answer we're looking for. Second part of the answer is the current
                 return new int[]{map.get(target - options[i]), i};
             }
 
