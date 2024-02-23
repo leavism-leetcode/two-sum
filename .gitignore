@@ -1,4 +1,16 @@
-.DS_Store
-0001-two-sum.iml
+# Development files
+dist/
+node_modules/
+
+# IDE
 .idea/
-out/production/0001-two-sum/Solution.class
+
+# Log files
+*.log
+
+# Build files
+target/
+
+# Etc
+datetime.txt
+.DS_Store
